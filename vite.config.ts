@@ -4,6 +4,8 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+ 
+  base: '/AIBank/',
   return {
     plugins: [react(), tailwindcss()],
     resolve: {
